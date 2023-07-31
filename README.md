@@ -7,7 +7,11 @@ Setup environment:
 $ conda env create --name envname --file=environments.yml
 ```
 
-Usage
+Usage:
 ```
 $ python cdiscount_scrapper.py <search_terms> <max_pages> (optional) <headless> (optional) <fake_user_agent> (optional) <proxy_list> (optional)
 ```
+
+Output: CSV files sorted in corresponding directories under ```./cdiscount/ ``` folder.
+
+NOTE: Also requires ChromeDriver to be in ```PATH```.

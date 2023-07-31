@@ -2,6 +2,4 @@
 *.log
 __pycache__/
 cdiscount/
-
-# ignore TorController.py
 TorController.py
